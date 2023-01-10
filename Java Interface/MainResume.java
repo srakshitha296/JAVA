@@ -19,7 +19,7 @@ class Teacher implements Resume {
 		
 	}
 
-	@Override
+	
 	public void biodata() {
 		System.out.println("Staff ID : " +staffID);
 		System.out.println("Staff Name : " +name);
@@ -46,7 +46,7 @@ class Student implements Resume {
     }
 	
 
-	@Override
+	
 	public void biodata() {
 		System.out.println(" Student USN : " +usn);
 		System.out.println("Student Name : " +name);
