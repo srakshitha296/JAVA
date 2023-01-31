@@ -9,3 +9,4 @@ Program to find the roots of quadratic equation.
 
 Program to check whether a number is prime or not.
 
+Array computer.
