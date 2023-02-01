@@ -2,16 +2,7 @@ package Game;
 
 import java.util.Random;
 
- class Factorial {
-
-	int fact(int n) {
-		if(n==0 || n==1)
-			return 1;
-		 return n*(fact(n-1));
-	 }
-	
-}
-
+ 
 public class Math {
 
 	public static void main(String[] args) {
@@ -26,3 +17,15 @@ System.out.println("Factorial of "+num+ " is "+result);
 	}
 
 }
+
+
+class Factorial {
+
+	int fact(int n) {
+		if(n==0 || n==1)
+			return 1;
+		 return n*(fact(n-1));
+	 }
+	
+}
+
